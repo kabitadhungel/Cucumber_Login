@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue= {"stepDefinitions"},
 		plugin= {"pretty",
 				"html:target/report/cucumber.html",
-				"json:target/cucumber-reports.json"
+				"json:target/cucumber.json"
 				}
 		
 		)
